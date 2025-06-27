@@ -1,0 +1,70 @@
+.wr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wr a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.wr-btn {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
+}
+
+.liquid-ef {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    backdrop-filter: blur(3px);
+    filter: url(#glass-distortion);
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.liquid-tint {
+    z-index: 1;
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.liquid-shi {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    overflow: hidden;
+    box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.5),
+        inset -1px -1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.liquid-btn {
+    z-index: 3;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 1px 5px rgb(0, 0, 0);
+}
+
+.wr div {
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.6rem;
+}
+
+.wr:hover>div {
+    padding: 0.6rem 1rem;
+    transform: translateY(-1px);
+    border-radius: 1.5rem;
+}

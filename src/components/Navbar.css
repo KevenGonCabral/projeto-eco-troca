@@ -1,0 +1,46 @@
+.nav_total {
+
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  background-image: url('../assets/tile3.png');
+  background-repeat: repeat;
+  background-size: 250px;
+  animation: moveBackground 180s infinite linear;
+  box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.555);
+
+}
+
+@keyframes moveBackground {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 0% -500%;
+  }
+}
+
+.nav_logo {
+
+  margin-left: 15px;
+  width: 8rem;
+  height: auto;
+
+}
+
+.nav_btn {
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-right: 15px;
+  text-wrap: none;
+
+}
