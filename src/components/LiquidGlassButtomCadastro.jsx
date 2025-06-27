@@ -4,16 +4,18 @@ import './LiquidGlassButtom.css'
 function LiquidGlassbuttomCadastro() {
 
     return (
-        <div class="wr">
-            <div class="wr-btn">
-                <div class="liquid-ef"></div>
-                <div class="liquid-tint"></div>
-                <div class="liquid-shi"></div>
-                <div class="liquid-btn">
-                    <Link to="/cadastrar">Sign Up</Link>
+        <Link to="/cadastrar">
+            <div class="wr">
+                <div class="wr-btn">
+                    <div class="liquid-ef"></div>
+                    <div class="liquid-tint"></div>
+                    <div class="liquid-shi"></div>
+                    <div class="liquid-btn">
+                        Sign Up
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 
 }

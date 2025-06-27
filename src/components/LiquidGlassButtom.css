@@ -1,14 +1,15 @@
-.wr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wr a {
+* > a {
 
     text-decoration: none;
     color: white;
 
+}
+
+.wr {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wr-btn {
@@ -39,7 +40,7 @@
     z-index: 1;
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(9, 255, 0, 0.25);
 }
 
 .liquid-shi {
@@ -55,7 +56,7 @@
     z-index: 3;
     font-size: 1rem;
     color: white;
-    text-shadow: 0 1px 5px rgb(0, 0, 0);
+    text-shadow: 0 1px 8px rgb(7, 36, 16);
 }
 
 .wr div {
