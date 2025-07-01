@@ -5,7 +5,8 @@ O projeto tem o objetivo de criar uma pagina web para a EcoTroca : uma plataform
 projeto vite + react
 
 # comandos
-npm install
-npm install bootstrap
+npm install | 
+npm install bootstrap | 
+npm install react-router-dom | 
 
 
