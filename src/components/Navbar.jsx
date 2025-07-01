@@ -4,6 +4,7 @@ import LiquidGlassbuttomHome from './LiquidGlassButtomHome';
 import LiquidGlassbuttomLogin from './LiquidGlassButtomLogin';
 import LiquidGlassbuttomCadastro from './LiquidGlassButtomCadastro';
 import LiquidGlassbuttomProfile from './LiquidGlassButtomProfile';
+import LiquidGlassSearch from './LiquidGlassSearch';
 
 function Navbar() {
 
@@ -14,13 +15,14 @@ function Navbar() {
         <img className="nav_logo" src="src\assets\corteLogo.png" alt="Eco troca" />
       </Link>
       <LiquidGlassbuttomHome />
+      <LiquidGlassSearch/>
       <div className="nav_btn">
         <LiquidGlassbuttomLogin />
         <LiquidGlassbuttomCadastro />
         <LiquidGlassbuttomProfile />
       </div>
     </nav>
-
+    
   );
 
 }

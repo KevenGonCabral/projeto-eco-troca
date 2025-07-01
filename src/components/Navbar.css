@@ -7,7 +7,7 @@
   align-items: center;
   gap: 15px;
   list-style: none;
-  background-image: url('../assets/tile3.png');
+  background-image: url('../assets/tile5.png');
   background-repeat: repeat;
   background-size: 250px;
   animation: moveBackground 180s infinite linear;

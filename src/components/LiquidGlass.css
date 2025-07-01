@@ -12,6 +12,31 @@
     align-items: center;
 }
 
+.barra_pesquisa {
+
+    width: 20rem;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    color: rgb(83, 83, 83);
+    text-shadow: 0 0px 1px rgb(255, 255, 255);
+    
+}
+
+.barra_pesquisa::placeholder{
+
+   color: rgb(83, 83, 83);
+   text-shadow: 0 0px 1px rgb(255, 255, 255);
+ 
+}
+
+.barra_pesquisa:focus{
+
+   color: rgb(83, 83, 83);
+   text-shadow: 0 0px 1px rgb(255, 255, 255);
+ 
+}
+
 .wr-btn {
 
     position: relative;
@@ -22,8 +47,17 @@
     overflow: hidden;
     color: white;
     cursor: pointer;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.212);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
+}
+
+.wr-btn img {
+
+    width: 1.1rem;
+    height: auto;
+    margin-right: 2px;
+    margin-bottom: 2px;
+
 }
 
 .liquid-ef {
@@ -40,7 +74,7 @@
     z-index: 1;
     position: absolute;
     inset: 0;
-    background: rgba(9, 255, 0, 0.25);
+    background: rgba(255, 255, 255, 0.25);
 }
 
 .liquid-shi {
@@ -54,13 +88,19 @@
 
 .liquid-btn {
     z-index: 3;
-    font-size: 1rem;
-    color: white;
-    text-shadow: 0 1px 8px rgb(7, 36, 16);
+    font-size: 0.9rem;
+    color: rgb(83, 83, 83);
+    text-shadow: 0 0px 1px rgb(255, 255, 255);
+    align-items: center;
 }
 
 .wr div {
     padding: 0.3rem 0.6rem;
+    border-radius: 0.6rem;
+}
+
+.wr div > input {
+    padding: 0rem 0rem;
     border-radius: 0.6rem;
 }
 

@@ -1,23 +1,24 @@
 import { Link } from 'react-router-dom';
 import './LiquidGlass.css'
 
-function LiquidGlassbuttomProfile() {
+function LiquidGlassSearch() {
 
     return (
-        <Link to="/perfil">
+        <form className="d-flex" role="search">
             <div class="wr">
                 <div class="wr-btn">
                     <div class="liquid-ef"></div>
                     <div class="liquid-tint"></div>
                     <div class="liquid-shi"></div>
                     <div class="liquid-btn">
-                        Profile
+                            <img src="src\assets\lupa-flaticon.png" alt=""/>
+                            <input className="barra_pesquisa"  type="search" placeholder="Pesquisar" aria-label="Search"/>
                     </div>
                 </div>
             </div>
-        </Link>
+        </form>
     );
 
 }
 
-export default LiquidGlassbuttomProfile;
+export default LiquidGlassSearch;
